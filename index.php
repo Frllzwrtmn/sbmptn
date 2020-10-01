@@ -3,7 +3,7 @@ error_reporting(0);
 ?>
 <!--
     ********************************************************
-    Fake Generator - Pengumuman SBMPTN LTMPTN 2020
+    Fake Generator - Pengumuman SELEKSI SBMPTN LTMPTN 2020
     Author: @naufalist //https://github.com/naufalist/sbmptn
     Original Source Code: Tim TIK LTMPT 2020
     ********************************************************
@@ -67,7 +67,7 @@ error_reporting(0);
         var x = document.forms["sbm"]["nopes"].value;
         var p = x.substring(0, 3);
         if ((x.length !== 12) || ((p !== "120") && (p !== "220"))) {
-            setTimeout(function () { swal("Invalid!","Periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 12\n- Diawali 120 (SAINTEK) atau 220 (SOSHUM)","error")}, 1000);
+            setTimeout(function () { swal("Invalid!","Mohon periksa kembali penulisan Nomor Pendaftaran!\n\nKetentuan:\n- Jumlah digit 12\n- Diawali 120 (SAINTEK) atau 220 (SOSHUM)","error")}, 1000);
             return false;
         }
 	}
@@ -151,7 +151,7 @@ error_reporting(0);
 
 		<div class="card card-block bg-faded mx-auto box-width">
 			<div class="card-header">
-				<strong>Masukkan data peserta SBMPTN Anda.</strong>	
+				<strong>Silahkan Masukkan data peserta SBMPTN Anda.</strong>	
 			</div>
 			<div class="card-body">
 				<form name="sbm" method="POST" action="">
@@ -172,7 +172,7 @@ error_reporting(0);
 					<small id="nama-help" class="form-text text-muted">Masukkan nama peserta Anda.</small>
 				</div>
 				<div class="form-group">
-					<label>Tanggal lahir</label>
+					<label>Tanggal lahir Anda</label>
 					<div class="form-row">
                         <!--
 						<div class="col">
@@ -297,7 +297,7 @@ error_reporting(0);
 						<div class="container" style="background-color: #f8f8f8; padding:15px;">
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Nomor peserta
+									Nomor peserta Anda
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -318,7 +318,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Nama
+									Nama Anda
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -329,7 +329,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Tanggal lahir
+									Tanggal lahir Anda
 								</div>
 								<div class="col-6 col-sm-1">
 									:
@@ -346,7 +346,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									PTN
+									Perguruan Tinggi Negeri
 								</div>
 								<div class="col-6 col-sm-1">
 									:
